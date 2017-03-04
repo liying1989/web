@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<title>导航插件</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="navbar  navbar-inverse navbar-fixed-top ">
+		<div class="container">
+			<div class="row">
+			<!--导航左上角logo-->
+			<a class="navbar-brand"><img src="img/logo.png" width="172px" height="40px"></a>
+			<!--响应式导航社设置 导航栏中要折叠的地方-->
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target ="#response-navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="response-navbar">
+				<!--导航-->
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">课程</a></li>
+					<li><a href="#">博客</a></li>
+					<li><a href="#">手册</a></li>
+				</ul>
+				<!--其他-->
+				<a href="" class="btn btn-primary btn-sm navbar-btn navbar-right hidden-xs">更多</a>
+				<!--登录和注册-->
+				<div class=" navbar-right">
+					<ul class="nav navbar-nav">
+						<li><a>登录</a></li>
+						<li><a>注册</a></li>
+					</ul>
+				</div>
+				<!--搜索-->
+				<form action="" class="navbar-form navbar-right">
+					<input type="text" placeholder="搜索" class="form-control">
+					<button type="submit">
+						<span class="glyphicon glyphicon-search"></span>
+					</button>
+				</form>
+			</div>
+			</div>
+		</div>
+	</nav>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+/*标签*/
+/*导航样式*/
+.navbar-inverse input[type="text"]
+{
+    background: none ;
+    border:none;
+    color: #999;
+}
+.navbar-inverse .navbar-form{
+    position: relative;
+}
+.navbar-inverse button[type="submit"]
+{
+    position: absolute;
+    top:25%;
+    right: 20px;;
+    background: none ;
+    border: none;
+    color: #999;
+}
+
+@media(min-width: 768px){
+    .navbar-inverse button[type="submit"]{
+        top:15%;
+    }
+}
